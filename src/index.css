@@ -1,0 +1,32 @@
+:root {
+  --bg-dark: #10121B;
+  --bg-card: #181b28;
+  --border-color: #262a3d;
+  --text-main: #f3f4f6;
+  --text-muted: #9ca3af;
+  --purple-primary: #7777FF;
+  --purple-hover: #6363ed;
+  --purple-glow: rgba(119, 119, 255, 0.25);
+  --green-income: #22c55e;
+  --pink-expense: #ec4899;
+  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color-scheme: dark;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
